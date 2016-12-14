@@ -16,6 +16,7 @@
         <link href="css/estilos.css" rel="stylesheet" type="text/css"/> 
     </head>
     <body>
+        <%@include file="WEB-INF/jspf/userHeader.jspf" %>
         <div class="contenedor-menu">
             <a href="#" class="btn-menu">Menú<i class="icono fa fa-bars"></i></a>
             <ul class="menu">
@@ -39,7 +40,6 @@
                 <li><a href="#"><i class="icono izquierda fa fa-envelope"></i>Contáctanos</a></li>
             </ul>
         </div>
-
         <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="js/main.js"></script>
     </body>

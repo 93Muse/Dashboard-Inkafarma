@@ -1,0 +1,28 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<footer>
+    <div class="container" id="pie">
+        <div class="col-sm-1 hidden-xs">
+            <div class="center-block">
+                <a href="#"><img class="img-rounded" src="img/logo.png" alt=""></a>
+            </div>
+        </div>
+        
+        <div class="col-sm-7" id="textoPie">
+            <address>
+                <strong>Instituto Superior Tecnológico IDAT - Computación e Informática</strong><br>
+                Av. Tomás Valle Cdra. 10<br>
+                Lima, Perú<br>
+                <abbr title="Phone">P:</abbr> (123) 456-7890
+            </address>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="social-icons pull-right">
+                <a href="#"><i class="glyphicon glyphicon-ok-sign"></i></a>
+                <a href="#"><i class="glyphicon glyphicon-question-sign"></i></a>
+                <a href="#"><i class="glyphicon glyphicon-info-sign"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
