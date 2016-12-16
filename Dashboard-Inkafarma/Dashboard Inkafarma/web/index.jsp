@@ -11,9 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minumum-scale=1.0">
         <title>Inkafarma - Dashboard</title>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="css/estilos.css" rel="stylesheet" type="text/css"/> 
+        <%@include file="WEB-INF/jspf/jscss.jspf" %>
     </head>
     <body>
         <%@include file="WEB-INF/jspf/userHeader.jspf" %>
@@ -40,7 +38,15 @@
                 <li><a href="#"><i class="icono izquierda fa fa-envelope"></i>Contáctanos</a></li>
             </ul>
         </div>
-        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-3">
+                    <canvas id="myChart" width="400" height="200"></canvas>
+                    <script language="Javascript" type="text/javascript" src="js/test.js"></script>
+                </div>
+            </div>
+        </div>
+        <br><br>
         <script src="js/main.js"></script>
     </body>
 </html>

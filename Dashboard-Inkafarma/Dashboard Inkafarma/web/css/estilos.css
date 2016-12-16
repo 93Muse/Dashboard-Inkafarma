@@ -18,7 +18,7 @@ a{
 }
 
 .btn-menu {
-    display: block;
+    display: none;
     padding: 20px;
     background: #FDEE00;
     color: #494949;
