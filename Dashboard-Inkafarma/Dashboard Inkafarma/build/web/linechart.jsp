@@ -1,5 +1,5 @@
 <%-- 
-    Document   : index
+    Document   : linechart
     Created on : 13/12/2016, 08:09:47 PM
     Author     : wpm
 --%>
@@ -21,7 +21,7 @@
                 <li><a href="index.jsp"><i class="icono izquierda fa fa-home"></i>Inicio</a></li>
                 <li><a href="#"><i class="icono izquierda fa fa-arrow-up"></i>Records<i class="icono derecha fa fa-chevron-down"></i></a>
                     <ul>
-                        <li><a href="linechart.jsp">Record Semanal</a></li>
+                        <li><a href="#">Record Semanal</a></li>
                         <li><a href="#">Record Mensual</a></li>
                     </ul>
                 </li>
@@ -46,8 +46,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-3">
-                    <canvas id="myChart" width="400" height="200"></canvas>
-                    <script language="Javascript" type="text/javascript" src="js/test.js"></script>
+                    <canvas id="myChart" width="400" height="250"></canvas>
+                    <script language="Javascript" type="text/javascript" src="js/linechart.js"></script>
                 </div>
             </div>
         </div>
