@@ -1,3 +1,4 @@
+/*
 * {
     magin: 0;
     padding: 0;
@@ -112,4 +113,29 @@ a{
     .contenedor-menu .menu{
         display: none;
     }
+}
+*/
+
+.sidebar {
+    background: #424242;
+    color: #FFF;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    top: 100px;
+}
+
+.botones {
+    list-style: none;
+    padding: 0;
+}
+
+.botones a li {
+    padding: 5px;
+    margin: 0 0 1px 0;
+}
+
+.botones a {
+    color: #FFF;
+    text-decoration: none;
 }

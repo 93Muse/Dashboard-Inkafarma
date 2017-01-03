@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : 13/12/2016, 08:09:47 PM
+    Created on : 03/01/2017, 04:38:25 PM
     Author     : wpm
 --%>
 
@@ -9,14 +9,246 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minumum-scale=1.0">
-        <title>Inkafarma - Dashboard</title>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="css/estilos.css" rel="stylesheet" type="text/css"/> 
+        <%@include file="WEB-INF/jspf/jscss.jspf" %>
+        <%@include file="WEB-INF/jspf/header.jspf" %>
+        <link rel="stylesheet" href="css/estilos.css"/>
     </head>
     <body>
-        <%@include file="WEB-INF/jspf/userHeader.jspf" %>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 sidebar">
+                    <ul class="botones">
+                        <a href="#"><li><i class="icono izquierda fa fa-home"></i> Inicio</li></a>
+                        <a href="#"><li>Botón</li></a>
+                        <a href="#"><li>Botón</li></a>
+                        <a href="#"><li>Botón</li></a>
+                        <a href="#"><li>Botón</li></a>
+                        <a href="#"><li>Botón</li></a>
+                        <a href="#"><li>Botón</li></a>
+                        <a href="#"><li>Botón</li></a>
+                        <a href="#"><li>Botón</li></a>
+                    </ul>
+                </div>
+                <br>
+                <div class="col-md-10 col-md-offset-2 main">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Contenido</th>
+                                    <th>Contenido</th>
+                                    <th>Contenido</th>
+                                    <th>Contenido</th>
+                                    <th>Contenido</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                                <tr>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                    <td>Contenido</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!--
         <div class="contenedor-menu">
             <a href="#" class="btn-menu">Menú<i class="icono fa fa-bars"></i></a>
             <ul class="menu">
@@ -42,5 +274,4 @@
         </div>
         <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="js/main.js"></script>
-    </body>
-</html>
+-->
