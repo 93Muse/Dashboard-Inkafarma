@@ -1,120 +1,23 @@
-/*
 * {
-    magin: 0;
+    margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+.encabezado {
+    background-color: #FDEE00;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 20px 0;
+}
+
 body{
     background-image: url('../img/FondoUPN.jpg');
     font-family: 'Open Sans', sans-serif;
-    line-height: 18px;
 }
-
-a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.btn-menu {
-    display: none;
-    padding: 20px;
-    background: #FDEE00;
-    color: #494949;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #424242;
-}
-
-.btn-menu .icono{
-    float: right;
-}
-
-.contenedor-menu{
-    width: 20%;
-    min-width: 300px;
-    margin: 20px;
-    display: inline-block;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 18px;
-}
-
-.contenedor-menu .menu{
-    width: 100%;
-}
-
-.contenedor-menu ul{
-    list-style: none;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #424242;
-}
-
-.contenedor-menu .menu li a{
-    color: #494949;
-    display: block;
-    padding: 15px 20px;
-    background: #e9e9e9;
-}
-
-.contenedor-menu .menu li a:hover{
-    background: #1a95d5;
-    color: #fff;
-}
-
-.contenedor-menu .menu .icono{
-    font-size: 12px;
-    line-height: 16px;
-}
-
-.contenedor-menu .menu .icono.izquierda{
-    float: left;
-    margin-right: 10px;
-}
-
-.contenedor-menu .menu .icono.derecha{
-    float: right;
-    margin-left: 10px;
-}
-
-.contenedor-menu .menu ul{
-    display: none;
-}
-
-.contenedor-menu .menu ul li a {
-    background: #424242;
-    color: #e9e9e9;
-}
-
-.contenedor-menu .menu .activado > a {
-    background: #1a95d5;
-    color: #fff;
-}
-
-@media screen and (max-width: 450px){
-    body{
-        padding-top: 80px;
-    }
-
-    .contenedor-menu{
-        margin: 0;
-        width: 100%;
-        position: fixed;
-        top: 0;
-        z-index: 1000;
-    }
-
-    .btn-menu{
-        display: block;
-    }
-
-    .contenedor-menu .menu{
-        display: none;
-    }
-}
-*/
 
 .sidebar {
     background: #424242;
@@ -122,7 +25,7 @@ a{
     position: fixed;
     z-index: 1000;
     bottom: 0;
-    top: 100px;
+    top: 0;
 }
 
 .botones {
@@ -133,9 +36,66 @@ a{
 .botones a li {
     padding: 5px;
     margin: 0 0 1px 0;
+    font-size: 15px;
+    font-family: 'Open Sans Light', sans-serif;
 }
 
 .botones a {
     color: #FFF;
     text-decoration: none;
+}
+
+#imagen {
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 160px;
+    height: 160px;
+}
+
+.nombre {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.apellidos {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    margin-top: 0px;
+}
+
+.container-fluid .botones .icono.izquierda{
+    float: left;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.container-fluid .botones .icono.derecha{
+    float: right;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.container-fluid .sidebar .botones ul a li {
+    background: #666666;
+    color: #e9e9e9;
+    margin-left: 30px;   
+}
+
+.container-fluid .sidebar .botones a li:hover{
+    background: #1a95d5;
+    color: #fff;
+}
+
+.container-fluid .sidebar .botones ul a li:hover{
+    background: #1a95d5;
+    color: #fff;
+}
+
+.container-fluid .botones .activado > a {
+    background: #1a95d5;
+    color: #fff;
 }
